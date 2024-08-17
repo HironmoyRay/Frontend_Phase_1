@@ -74,7 +74,7 @@ button {
 /* Responsive */
 @media screen and (max-width: 768px) {
   .hero-section {
-    flex-direction: column;
+    flex-direction: column-reverse;
     height: auto;
   }
   .form-container,
