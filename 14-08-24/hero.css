@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightcyan;
+}
+
+.hero-section {
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.form-container,
+.text-container {
+  flex: 1 1 50%;
+  width: 100%;
+}
+.form-container form {
+  width: 100%;
+  background-color: white;
+  padding: 50px 30px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 30px lightgrey;
+}
+.email-box,
+.password-box {
+  margin-bottom: 30px;
+}
+form label,
+form input,
+button {
+  display: block;
+  width: 100%;
+}
+
+form input,
+button {
+  line-height: 36px;
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+form input {
+  margin-top: 10px;
+  background-color: white;
+  border: 2px solid rgba(128, 128, 128, 0.138);
+}
+form p {
+  margin-top: 10px;
+}
+
+button {
+  border: 0px;
+  background-color: rgba(0, 81, 255, 0.708);
+  color: #ffffff;
+}
+
+/* ////////Text Section Start//////// */
+.text-container {
+  margin: 20px;
+}
+.text-container h1 {
+  font-size: 48px;
+}
+.text-container p {
+  font-size: 20px;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .hero-section {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .form-container,
+  .text-container {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+  .form-container {
+  }
+
+  .text-container {
+  }
+}
