@@ -6,9 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scroll Feature</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
+    <i class="fa-solid fa-house"></i>
     <header class="header-section">
         <nav class="nav-bar">
             <div class="logo"><a href="#">Logo</a></div>
@@ -18,7 +22,15 @@
                     <li><a href="#hero">Hero</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="#blog">Blog</a></li>
+                    <li class="dropdown">Blog <i class="fa-solid fa-arrow-down"></i>
+                        <ul class="blog-ul">
+                            <li><a href="#link1">Link 1</a></li>
+                            <li><a href="#link2">Link 2</a></li>
+                            <li><a href="#link3">Link 3</a></li>
+                            <li><a href="#link4">Link 4</a></li>
+                        </ul>
+                    </li>
+
                 </ul>
             </div>
         </nav>
@@ -27,14 +39,50 @@
         <div class="hero container" id="hero">
             <h1>Hero Section</h1>
         </div>
-        <div class="about container" id="about">
+        <div class="about container active" id="about">
             <h1>About Section</h1>
         </div>
         <div class="contact container" id="contact">
             <h1>Contact Section</h1>
         </div>
-        <div class="blog container" id="blog">
-            <h1>Blog</h1>
+        <div class="blog" id="blog">
+            <div class="link-1 container padding-100" id="link1">Lorem ipsum dolor, sit amet consectetur adipisicing
+                elit. Quo laborum labore architecto vitae, molestias expedita corporis voluptatum repellat illum tenetur
+                eaque deleniti culpa, repudiandae debitis quis facilis libero nostrum? Aliquam sunt, debitis a
+                reiciendis, dignissimos fuga, neque amet ad odit eveniet dolor in magni praesentium itaque modi
+                perspiciatis optio? Sed dolore eaque eveniet autem odio, eum repellendus laudantium, dicta ut illum
+                vitae necessitatibus facilis quis corporis consequatur nobis similique! Unde, dignissimos! Blanditiis
+                molestias repudiandae voluptatem adipisci magnam alias provident voluptates ipsa pariatur. Expedita
+                ipsam ut est pariatur cumque impedit, mollitia maiores nam natus, architecto suscipit laudantium. Beatae
+                illo temporibus pariatur?
+            </div>
+            <div class="link-2 container padding-100" id="link2">Lorem, ipsum dolor sit amet consectetur adipisicing
+                elit. Beatae perferendis praesentium nulla aperiam architecto adipisci labore eaque tenetur sed quam.
+                Temporibus, inventore, cupiditate animi laborum est, quos et eius facere qui maiores modi? Quos
+                adipisci, velit asperiores maiores iste repellendus amet libero! Accusantium facere dolorum id facilis!
+                Maiores quod nostrum consequuntur doloremque magni beatae vel unde vero, accusantium culpa fuga laborum
+                magnam blanditiis reprehenderit eos soluta officia totam cumque ullam non. Excepturi ipsam explicabo
+                inventore ipsa facere eligendi animi facilis aut nesciunt doloribus. Tempore voluptates inventore esse
+                harum voluptatibus eveniet assumenda, dolorem vitae vel saepe mollitia officiis distinctio sed iste!
+            </div>
+            <div class="link-3 container padding-100" id="link3">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit. Fuga excepturi dolor ut laudantium cum obcaecati doloribus iste voluptatibus eaque sint! Neque
+                aliquam labore cumque nostrum, provident ad accusamus aperiam. Incidunt officia minus magni obcaecati
+                tempora ex, hic reiciendis magnam perferendis. Possimus in impedit mollitia porro blanditiis iste qui
+                saepe tempore sapiente quos, aliquid temporibus sed adipisci incidunt sequi pariatur hic eius. Quod
+                ullam eos provident, debitis repellendus quibusdam cumque itaque commodi laudantium laboriosam at
+                nostrum, quia velit eius sit perspiciatis sunt ex unde voluptas facere assumenda quae sed distinctio
+                cupiditate. Vitae sequi doloremque qui fuga voluptas distinctio deleniti autem earum?
+            </div>
+            <div class="link-4 container padding-100" id="link4">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Laboriosam qui, nisi inventore minus iste eum dolore fugiat sint nesciunt maxime cumque totam
+                neque temporibus consequatur aut consectetur? Aperiam sint, in accusantium non reprehenderit omnis
+                explicabo quaerat saepe sit qui optio aspernatur labore? Optio officiis quas odit adipisci aliquam
+                expedita, perspiciatis ut aliquid facilis veniam. Corporis repudiandae facilis in magni ab, deleniti
+                quidem laboriosam porro neque. Provident obcaecati earum culpa dolores quisquam modi nesciunt quaerat
+                odit blanditiis sit voluptates consequatur rem, vel natus magni excepturi aliquam sequi cum repellendus
+                officia? Earum labore dolores, soluta veritatis asperiores aliquam optio tempora odio laboriosam?
+            </div>
         </div>
     </main>
     <script src="./script.js"></script>
