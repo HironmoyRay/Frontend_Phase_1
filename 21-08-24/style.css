@@ -6,14 +6,20 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .toggler-div {
   margin: 20px;
   width: 100px;
-  background-color: aqua;
+  height: 60px;
+  /* background-color: aqua; */
   z-index: 1000;
 }
 .toggle-cross {
+  background-color: gray;
   position: relative;
+  top: 30px;
+  left: 8px;
+  transition: all 0.3s ease-in;
 }
 .toggle-cross::before {
   content: "";
@@ -48,6 +54,7 @@ body {
   height: 10px;
   background-color: gray;
   position: relative;
+  top: 25px;
   transition: all 0.3s ease-in;
 }
 .toggle-menu::before {
