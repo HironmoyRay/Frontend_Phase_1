@@ -6,6 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accordion</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        item-container {
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        .item {
+            background-color: aquamarine;
+            padding: 20px;
+            margin: 20px;
+            margin-top: 0;
+            margin-bottom: 0px;
+            border-bottom: 2px solid white;
+            cursor: pointer;
+        }
+
+        .details {
+            background-color: aqua;
+            padding: 10px;
+            margin: 0px 20px;
+            border-bottom: 2px solid white;
+            display: none;
+            transition: all 0.9s ease;
+        }
+    </style>
 </head>
 
 <body>
@@ -32,6 +57,33 @@
     </div>
 
     <script src="./script.js"></script>
+    <!-- <script>
+        const container = document.querySelectorAll(".item-container");
+
+        for (let i = 0; i < container.length; i++) {
+            // Initially, close all details
+            container[i].children[1].style.display = "none";
+
+            container[i].children[0].addEventListener('click', () => {
+                // Close all open details
+                container.forEach((cont, index) => {
+                    if (index !== i) {
+                        cont.children[1].style.display = "none";
+                    }
+                });
+
+                // Toggle the clicked item
+                let details = container[i].children[1];
+                if (details.style.display === 'block') {
+                    details.style.display = "none";
+                } else {
+                    details.style.display = "block";
+                }
+            });
+        }
+
+
+    </script> -->
 </body>
 
 </html>
