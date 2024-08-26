@@ -5,20 +5,21 @@ let toggle = true;
 
 
 togglerDiv.addEventListener("click",()=>{
+   console.log("Div Clicked");
    
         if(toggle){
-        console.log(toggleBar);
+        // console.log(toggleBar);
         toggleBar.classList.remove("toggle-menu")
         toggleBar.classList.add("toggle-cross")
         toggle=!toggle;
-        console.log(toggle);
+        // console.log(toggle);
         }
         else{
-            console.log(toggleBar);
+            // console.log(toggleBar);
             toggleBar.classList.remove("toggle-cross")
             toggleBar.classList.add("toggle-menu")
             toggle=!toggle;
-            console.log(toggle);
+            // console.log(toggle);
         }
 
        

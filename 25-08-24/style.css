@@ -1,0 +1,23 @@
+item-container {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.item {
+  background-color: aquamarine;
+  padding: 10px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  border-bottom: 2px solid white;
+  cursor: pointer;
+}
+.details {
+  background-color: aqua;
+  padding: 10px;
+  margin-top: 0px;
+  margin-bottom: 0;
+  border-bottom: 2px solid white;
+  display: none;
+  transition: all 0.9s ease;
+}
+
+
