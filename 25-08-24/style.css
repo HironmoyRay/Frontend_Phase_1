@@ -1,4 +1,4 @@
-/* item-container {
+item-container {
   margin-bottom: 0;
   margin-top: 0;
 }
@@ -14,8 +14,8 @@
 .details {
   background-color: aqua;
   padding: 10px;
-  margin:0px 20px;
+  margin: 0px 20px;
   border-bottom: 2px solid white;
   display: none;
   transition: all 0.9s ease;
-} */
+}
