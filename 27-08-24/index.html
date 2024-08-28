@@ -6,14 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aside</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
 <body>
     <div class="div-container">
-        <div class="divOne">Div One </div>
-        <div class="divTwo">Div Two </div>
+        <aside>
+            <div class="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="cross">
+                <span class="span-1"></span>
+                <span class="span-2"></span>
+            </div>
+            <ul class="ul-details">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+            <ul class="ul-icons">
+                <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+                <li><a href="#contact"><i class="fa-solid fa-phone-volume"></i></a></li>
+                <li><a href="#services"><i class="fa-solid fa-microchip"></i></a></li>
+                <li><a href="#about"><i class="fa-solid fa-address-card"></i></a></li>
+            </ul>
+        </aside>
+        <main>
+            <div id="home" class="main-div home">
+                <h2>One</h2>
+            </div>
+            <div id="contact" class="main-div contact">
+                <h2>Two</h2>
+            </div>
+            <div id="services" class="main-div services">
+                <h2>Three</h2>
+            </div>
+            <div id="about" class="main-div about">
+                <h2>Four</h2>
+            </div>
+        </main>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
