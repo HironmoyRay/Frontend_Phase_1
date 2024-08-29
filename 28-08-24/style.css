@@ -5,16 +5,15 @@
 }
 .header-section {
   height: 100vh;
-  background-color: aqua;
+  /* background-color: aqua; */
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-.button-container {
-}
+
 button {
-  background-color: gray;
+  background-color: rgba(128, 128, 128, 0.418);
   padding: 10px 20px;
   border: 2px solid white;
   border-radius: 10px;
@@ -34,7 +33,7 @@ button:hover {
   width: 100vw;
   height: 100vh;
   background-color: gray;
-  opacity: 0.7;
+  opacity: 0.9;
   transition: all 0.5s ease;
 }
 
@@ -42,7 +41,7 @@ button:hover {
   right: 100vw;
 }
 .sliderToDown {
-  bottom:100vh;
+  bottom: 100vh;
 }
 
 i {
@@ -52,4 +51,24 @@ i {
   margin: 20px;
   font-size: 48px;
   color: white;
+}
+ul{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+ul li {
+  list-style: none;
+  padding: 10px;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 48px;
+  color: white;
+}
+ul li a:hover{
+  border-bottom: 2px solid white;
 }
