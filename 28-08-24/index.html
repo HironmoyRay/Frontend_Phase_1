@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sliding Window</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header-section">
+        <div class="button-container">
+
+            <button onclick="handleSliderToRight()">To Right</button>
+            <button onclick="handleSliderToBottom()">To Bottom</button>
+
+        </div>
+
+        <div class="slider sliderToRight">
+            <i onclick="hideSliderToRight()" class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="slider sliderToBottom">
+            <i onclick="hideSliderToBottom()" class="to-right fa-solid fa-xmark"></i>
+        </div>
+    </div>
+
+    <script>
+        const sliderRight = document.querySelector(".sliderToRight")
+        const handleSliderToRight = () => {
+            sliderRight.style.right = "0";
+        }
+
+        const hideSliderToRight = () => {
+            sliderRight.style.right = "100vw"
+        }
+
+        const sliderBottom = document.querySelector(".sliderToBottom")
+        const handleSliderToBottom = () => {
+            sliderBottom.style.bottom = "0"
+        }
+
+        const hideSliderToBottom = () => {
+            sliderBottom.style.bottom = '100vh';
+        }
+
+    </script>
+</body>
+
+</html>
