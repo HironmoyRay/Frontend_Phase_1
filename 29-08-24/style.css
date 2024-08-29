@@ -12,25 +12,28 @@
 ::-webkit-scrollbar-track {
   background-color: white;
   border-radius: 100vw;
-  margin: 0 2em;
+  /* margin: 0 2em; */
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: blueviolet;
+  background-color: black;
   border: 0.25em solid white;
   border-radius: 100vw;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(118, 0, 228);
+  background-color: rgb(38, 38, 38);
+}
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 nav {
-  margin: auto;
-  width: 800px;
-  background-color: blueviolet;
-  margin-top: 10px;
-  padding: 0px 20px 10px;
-  border-radius: 100vw;
+  width: 100%;
+  max-width: 800px;
+  background-color: black;
 }
 nav ul {
   display: flex;
@@ -41,16 +44,37 @@ nav ul {
 }
 nav ul li {
   list-style: none;
-  padding: .5em 1em;
-  margin: .5em 1em;
+  padding: 0.5em;
   border-radius: 100vw;
 }
 nav ul li:hover {
-  background-color: rgb(118, 0, 228);
+  background-color: rgb(38, 38, 38);
 }
 
 nav ul li a {
   text-decoration: none;
   color: white;
   padding: 1em;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    max-width: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  nav {
+    max-width: 400px;
+  }
+}
+@media screen and (max-width: 576px) {
+  nav {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 400px) {
+  nav {
+    max-width: 200px;
+  }
 }
