@@ -17,16 +17,16 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
 }
 
 header {
-  width: 100%;
-  max-width: 1440px;
-  height: 92px;
-  margin: auto;
 }
 nav {
   display: flex;
+  height: 92px;
   justify-content: space-between;
   align-items: center;
   background: rgba(255, 255, 255, 1);
