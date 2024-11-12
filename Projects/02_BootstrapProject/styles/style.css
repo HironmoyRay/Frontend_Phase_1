@@ -1,7 +1,16 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.navbar-brand,
+.font-Pacifico {
+  font-family: "Pacifico", cursive;
+}
+.bg-gray{
+  background-color: #d3d3d340;
+}
 .slider-img {
   object-position: center;
   object-fit: cover;
   height: 100%;
   width: 100%;
 }
-
