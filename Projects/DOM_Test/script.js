@@ -117,10 +117,10 @@
 
 // console.log(set.size);
 
-document
-  .getElementById("parent")
-  .addEventListener("click", () => console.log("parent clicked"));
+// document
+//   .getElementById("parent")
+//   .addEventListener("click", () => console.log("parent clicked"));
 
-document
-  .getElementById("child")
-  .addEventListener("click", () => console.log("child clicked"));
+// document
+//   .getElementById("child")
+//   .addEventListener("click", () => console.log("child clicked"));
