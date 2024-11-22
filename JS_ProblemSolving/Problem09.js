@@ -13,3 +13,7 @@
 // 85
 // Hello Alpha
 // Summer 2022
+
+function parseString(...param){
+    for
+}
