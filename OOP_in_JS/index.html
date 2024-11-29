@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OOP in Js</title>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"
+    ></script>
+    <link rel="stylesheet" href="https://matcha.mizu.sh/matcha.css" />
+  </head>
+  <body>
+    <h2>Matcha & Alpine Js Explore</h2>
+    <div x-data="person">
+      <h4 x-text="name"></h4>
+      <p x-text="age"></p>
+    </div>
+
+    <script>
+      const person = {
+        name: "Hironmoy",
+        age: 26,
+        graduated: true,
+      };
+    </script>
+  </body>
+</html>
